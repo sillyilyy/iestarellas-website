@@ -1,0 +1,325 @@
+/***** BASE STYLES *****/
+body {
+color: #2b2b2b;	
+font-family: 'Oswald';
+}
+
+
+/***** GRID *****/
+.full-width {
+    
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+
+	float: left;
+	width: 600px;
+	
+}
+
+.third-width {
+	
+	float: left;
+	width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+
+    
+    background: url('../img/portfolio-img.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1 { 
+    
+    color: #2b2b2b;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 37px 0 65px 25px;
+    
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: 'Oswald';
+}
+
+nav ul li a {
+
+	font-size: 18px;
+	color: #c32d22;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header h2 {
+
+    clear: both;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 85px;
+    padding: 0 0 20px 25px;
+    text-transform: uppercase;
+    width: 950px;
+}
+
+header h2 span {
+    color: gold;
+}
+
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    letter-spacing: 2.5px;
+    padding-left: 50px;
+}
+ 
+#about p {
+    
+	color: #7f7f7f;
+    font-size: 21px;
+    font-family: 'Oswald';
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/***** WORK CATEGORIES *****/
+
+#work-categories {
+
+	background: #2b2b2b;
+	text-align: center;
+}
+
+#work-categories .full-width {
+
+    padding: 115px 0;
+}
+ 
+#work-categories img {
+
+    padding-bottom: 30px;
+}
+
+#work-categories h3 {
+
+    font-size: 24px;
+    color: goldenrod;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 190px;
+    
+}
+ 
+#work-categories p {
+    color: #7f7f7f;
+    font-family: 'Oswald';
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    
+	border: 12px solid #ffffff;
+    margin-left: 25px;
+    
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+
+    padding-left: 115px;
+}
+#contact #envelope {
+
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+
+    font-family: 'Pacifico';
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header{
+
+    font-size: 28px;
+    font-family: 'Oswald';
+    font-weight: 200;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+
+    color: #c32d22;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#contact ul {
+
+    list-style: none;
+}
+#contact ul li {
+
+     display: inline-block;
+}
+#contact ul img {
+
+    padding-right: 48px;
+}
+
+/***** WORK PAGE *****/
+
+#header-background {
+
+    background: none;
+    height: 300px;
+
+}
+
+#header-background h1 {
+    font-size: 70px;
+    text-alignment: left;
+}
+
+.main-wrapper img {
+    padding-bottom: 30px;
+
+}
+
+#work-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+/***** MUA section *****/
+
+#model-and-mua {
+
+    background: #2b2b2b;
+    margin-bottom: 100px;
+    padding: 80px 0;
+
+ }
+    
+
+#model-and-mua  p {
+    color: #7f7f7f;
+    font-family: 'Oswald';
+    font-size: 30px;
+    line-height: 30px;
+    
+}
+
+/***** PRINT DESIGN *****/
+
+#print-design {
+
+    background: #2b2b2b;
+    margin-bottom: 100px;
+    padding: 80px 0;
+
+ }
+
+
+#print-design p {
+    color: #7f7f7f;
+    font-family: 'Oswald';
+    font-size: 30px;
+    line-height: 30px;
+    
+}
+
+/***** GRAPHIC DESIGN SECTION *****/
+
+#graphic-design {
+
+    background: #2b2b2b;
+   
+ }
+
+#graphic-design p {
+
+    color: #7f7f7f;
+    font-family: 'Oswald';
+    font-size: 30px;
+    line-height: 30px;
+    
+}
+
+#graphic-design .full-width {
+
+    padding: 115px 0;
+}
+ 
+
+
+/***** hover links *****/
+
+.main-wrapper a {
+  
+    color:  goldenrod;
+    font-size: 50px;
+    color: goldenrod;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 190px;
+
+}
+
+a:link {
+    text-decoration: none;
+
+    
+}
+
+
+a:hover {
+    color:  orangered;
+}
