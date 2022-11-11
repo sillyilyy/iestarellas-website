@@ -122,7 +122,8 @@ header h2 span {
  
 #work-categories img {
 
-    padding-bottom: 30px;
+    float: left;
+    padding-bottom: 0;
 }
 
 #work-categories h3 {
@@ -224,13 +225,7 @@ header h2 span {
 }
 
 #header-background h1 {
-    font-size: 70px;
-    text-alignment: left;
-}
-
-.main-wrapper img {
-    padding-bottom: 30px;
-
+    font-size: 50px;
 }
 
 #work-img {
